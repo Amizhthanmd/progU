@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 
 const config: Config = {
-  title: 'Dev Hub',
+  title: 'ProgU',
   tagline: 'Budding developers hub',
   favicon: 'img/favicon.ico',
 
@@ -17,7 +17,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'dev', // Usually your GitHub org/user name.
-  projectName: 'dev hub', // Usually your repo name.
+  projectName: 'ProgU', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -60,7 +60,7 @@ const config: Config = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Dev Hub',
+      title: 'ProgU',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -81,7 +81,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Dev Hub.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ProgU.`,
     },
     prism: {
       theme: prismThemes.github,
