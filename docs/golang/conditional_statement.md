@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Conditional statements
+# Conditional Statements
 
 In Go, conditional statements allow you to execute blocks of code based on certain conditions. The common conditional statements in Go are if, else, else if, and switch.
 
