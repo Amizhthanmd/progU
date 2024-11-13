@@ -67,7 +67,46 @@ func main() {
 }
 ```
 
-## 4. Deleting Elements from a Map
+## 4. Copy a map
+
+In Go, you can copy a map by creating a new map and iterating over the original to copy each key-value pair. Go doesn't have a built-in function to directly copy maps, but this manual method works effectively.
+
+```go
+// Example
+
+package main
+
+import "fmt"
+
+func main() {
+    // Original map
+    original := map[string]int{
+        "Alice": 25,
+        "Bob":   30,
+        "Carol": 27,
+    }
+
+    // Create a new map with the same capacity
+    copyMap := make(map[string]int, len(original))
+
+    // Copy each key-value pair
+    for key, value := range original {
+        copyMap[key] = value
+    }
+
+    // Print to verify
+    fmt.Println("Original:", original)
+    fmt.Println("Copy:", copyMap)
+
+    // Modify copy to show they are independent
+    copyMap["Alice"] = 35
+    fmt.Println("After modifying copy:")
+    fmt.Println("Original:", original)
+    fmt.Println("Copy:", copyMap)
+}
+```
+
+## 5. Deleting Elements from a Map
 
 Use the `delete()` function to remove an entry from the map.
 
@@ -85,7 +124,7 @@ func main() {
 }
 ```
 
-## 5. Iterating Over a Map
+## 6. Iterating Over a Map
 
 You can use a `for` loop with the `range` keyword to iterate over a map.
 
@@ -108,7 +147,7 @@ func main() {
 }
 ```
 
-## 6. Map with Custom Types
+## 7. Map with Custom Types
 
 Maps can also be used with custom types as keys or values.
 
@@ -133,7 +172,7 @@ func main() {
 }
 ```
 
-## 7. Map with Struct Keys
+## 8. Map with Struct Keys
 
 When using `structs` as map keys, they must be comparable (e.g., no slices or maps can be used as map keys).
 

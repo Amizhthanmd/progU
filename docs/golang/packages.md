@@ -123,7 +123,7 @@ import _ "database/sql/driver"
 
 Go modules are the standard way of managing dependencies in modern Go projects. The module system allows you to define and version dependencies, making it easier to handle imports and packages.
 
-### Creating a Go Module:
+### Creating a Go Module
 
 - In your project directory, initialize a module with:
 
