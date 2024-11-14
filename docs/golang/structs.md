@@ -50,6 +50,13 @@ func main() {
         Age  int
     }{"John", 30}
     fmt.Println(p)  // Output: {John 30}
+
+    type Person struct {
+        string // anonymous field
+        Age    int
+    }
+    person := Person{"Alice", 30}
+    fmt.Println(person.string) // outputs "Alice"
 }
 ```
 
