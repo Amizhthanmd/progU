@@ -71,3 +71,4 @@ The `select` statement is used to wait on multiple channel operations. It allows
 
 - Send-only channel: `chan<-` is used to restrict a channel to only sending data.
 - Receive-only channel: `<-chan` is used to restrict a channel to only receiving data.
+

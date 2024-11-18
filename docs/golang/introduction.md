@@ -17,7 +17,18 @@ sidebar_position: 1
 - It features a unique concurrency model using goroutines and channels, which allows efficient multi-threaded processing.
 - Go is widely used in backend development, cloud services, and large-scale systems.
 
-## 3. Go's basic syntax
+## 3. Installation
+
+- Go to the official Go download page: [click here](https://go.dev/doc/install)
+- Download the installer for your operating system (Windows, macOS, or Linux).
+
+To check go version by running the following command.
+
+```bash
+go version
+```
+
+## 4. Go's basic syntax
 
 ```go
 package main
@@ -33,3 +44,14 @@ func main() {
 - `import "fmt"`: Imports the `fmt` package, which provides I/O functions.
 - `func main()`: The entry point of a Go program. The `main` function is executed when the program runs.
 - `fmt.Println()`: A function from the `fmt` package used to print text to the console.
+
+## 5. Golang Keywords
+
+Golang has 25 reserved keywords, which are special identifiers with predefined meanings.
+| Keyword | Keyword | Keyword | Keyword | Keyword |
+|------------|-------------|--------------|-----------|------------|
+| break | case | chan | const | continue |
+| default | defer | else | fallthrough | for |
+| func | go | goto | if | import |
+| interface | map | package | range | return |
+| select | struct | switch | type | var |
