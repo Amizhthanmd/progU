@@ -72,3 +72,39 @@ The `select` statement is used to wait on multiple channel operations. It allows
 - Send-only channel: `chan<-` is used to restrict a channel to only sending data.
 - Receive-only channel: `<-chan` is used to restrict a channel to only receiving data.
 
+## 17. What is context in go?
+
+In Go, `context` is a standard package used to manage deadlines, cancelation signals and request-scoped value across the API boundaries and goroutines. It helps coordinate operations, improve resource management and propagate signals like timeouts and cancelations.
+
+## 18. What is init?
+
+In Go, `init` is a special function that initializes a package by setting up a state or running the code before the program's execution starts. It is executed automatically once per package, after all imports are resolved but before the `main` function runs.
+
+## 19. Error handling in go
+
+In Go, errors are handled using the `error` type. when a function encounters an error. it can return an error indicating the problem. The calling code can then check if the error is nil. if not, it handles the error appropriately.
+
+## 20. What is pointer?
+
+In Go, pointer is a variable that stores the memory address of another variable, allowing indirect access and modification of its value. It is declared using the `*` operator and is useful for efficient data manipulation and avoiding copies.
+
+## 21. What is panic & recover?
+
+In Go, `panic` is used to terminate the normal execution of a program when an unexpected condition occurs, often due to critical error. `recover` is a built-in function that can catch and handle a panic, allowing the program to recover and continue execution, typically used inside the `defer` block.
+
+## 22. What is defer?
+
+In Go, `defer` is used to schedule a function to be executed after the surrounding function completes. ensuring cleanup tasks are performed. Defered function are executed in LIFO(Last in first out) order, even if the function returns early or panic occurs.
+
+## 23. What is select in go?
+
+In Go, `select` statement allows a goroutine to wait on multiple channel operations, choosing the first available channel to receive from or send to, which is crucial for concurrent programming and managing communication between goroutines.
+
+## 24. What is GOROOT?
+
+`GOROOT` is the environment variable in Go that specifies the root directory of the Go installation, where standard library packages, core tools, and runtime are located.
+
+## 25. What is GOPATH?
+
+`GOPATH` is the environment variable in the Go that defines the workspace directory where Go projects, source code, dependencies and compiled packages are stored.
+
