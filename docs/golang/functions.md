@@ -248,3 +248,21 @@ func main() {
     fmt.Println(counter()) // Output: 3
 }
 ```
+
+## 9. Init function
+
+In Go, the `init` function is a special function that is automatically executed when a package is imported, before the `main` function is executed. It is used to initialize variables, perform setup tasks, or execute code that should run once when the package is loaded.
+
+```go
+package main
+
+import "fmt"
+
+func init() {
+	fmt.Println("Init function executed.") // Runs first
+}
+
+func main() {
+	fmt.Println("Main function executed.") // Runs after init
+}
+```

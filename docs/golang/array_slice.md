@@ -18,6 +18,7 @@ var arrayName [size]Type
 
 ```go
 // Example
+
 package main
 
 import "fmt"
