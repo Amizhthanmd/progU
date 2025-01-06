@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Exceptions
 
 The `try`, `except`, and `finally` keywords are used in Python for exception handling. Together, they allow you to manage errors gracefully and ensure that cleanup or finalization code is executed no matter what happens in the `try` block.
