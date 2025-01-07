@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Class
 
 A `class` in Python is a blueprint or template for creating objects. It defines properties (attributes) and behaviors (methods) that the objects created from the class can have.

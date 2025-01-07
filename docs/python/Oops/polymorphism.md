@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Polymorphism
 
 Polymorphism is a core concept in object-oriented programming (OOP) that allows objects of different classes to be treated as objects of a common super-class. In Python, polymorphism allows methods in different classes to have the same name but potentially different implementations.
@@ -94,4 +98,3 @@ shapes = [Circle(5), Rectangle(4, 6)]
 for shape in shapes:
     print("Area:", shape.area())
 ```
-
