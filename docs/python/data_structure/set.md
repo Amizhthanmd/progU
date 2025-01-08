@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Set
 
 A set in Python is an unordered collection of unique elements. Sets are useful when you want to store values without duplicates, and they provide efficient operations like membership testing, union, intersection, and difference.
@@ -144,24 +148,24 @@ print(5 in my_set)  # Output: False
 
 # Set Summary
 
-| Feature/Method          | Description                                                             |
-|-------------------------|-------------------------------------------------------------------------|
-| **Definition**           | An unordered collection of unique elements.                             |
-| **Creating a Set**       | `my_set = {1, 2, 3}` or `my_set = set([1, 2, 3])`.                      |
-| **Add Elements**         | `add()` - Adds a single element to the set.                             |
-| **Remove Elements**      | `remove()` - Removes a specified element (raises KeyError if not found).|
-|                         | `discard()` - Removes an element (doesn't raise error if not found).    |
-|                         | `pop()` - Removes and returns an arbitrary element.                     |
-| **Clear All Elements**   | `clear()` - Removes all elements from the set.                          |
-| **Set Operations**       | `|` (Union) - Combines two sets.                                        |
-|                         | `&` (Intersection) - Elements common in both sets.                      |
-|                         | `-` (Difference) - Elements in the first set but not in the second.    |
-|                         | `^` (Symmetric Difference) - Elements in either set but not both.      |
-| **Subset & Superset**    | `<=` (Subset) - Check if one set is a subset of another.               |
-|                         | `>=` (Superset) - Check if one set is a superset of another.           |
-| **Disjoint Sets**        | `isdisjoint()` - Returns True if sets have no common elements.         |
-| **Comprehensions**       | `{x**2 for x in range(5)}` - Set comprehension.                         |
-| **Membership Test**      | `in` - Check if an element exists in a set.                             |
-| **Length of Set**        | `len()` - Returns the number of elements in the set.                    |
-| **Immutable Elements**   | Sets can only contain immutable elements (e.g., numbers, strings, tuples).|
-| **Unordered**            | Elements are stored in no particular order.                             |
+| Feature/Method         | Description                                                                |
+| ---------------------- | -------------------------------------------------------------------------- | ------------------------------ |
+| **Definition**         | An unordered collection of unique elements.                                |
+| **Creating a Set**     | `my_set = {1, 2, 3}` or `my_set = set([1, 2, 3])`.                         |
+| **Add Elements**       | `add()` - Adds a single element to the set.                                |
+| **Remove Elements**    | `remove()` - Removes a specified element (raises KeyError if not found).   |
+|                        | `discard()` - Removes an element (doesn't raise error if not found).       |
+|                        | `pop()` - Removes and returns an arbitrary element.                        |
+| **Clear All Elements** | `clear()` - Removes all elements from the set.                             |
+| **Set Operations**     | `                                                                          | ` (Union) - Combines two sets. |
+|                        | `&` (Intersection) - Elements common in both sets.                         |
+|                        | `-` (Difference) - Elements in the first set but not in the second.        |
+|                        | `^` (Symmetric Difference) - Elements in either set but not both.          |
+| **Subset & Superset**  | `<=` (Subset) - Check if one set is a subset of another.                   |
+|                        | `>=` (Superset) - Check if one set is a superset of another.               |
+| **Disjoint Sets**      | `isdisjoint()` - Returns True if sets have no common elements.             |
+| **Comprehensions**     | `{x**2 for x in range(5)}` - Set comprehension.                            |
+| **Membership Test**    | `in` - Check if an element exists in a set.                                |
+| **Length of Set**      | `len()` - Returns the number of elements in the set.                       |
+| **Immutable Elements** | Sets can only contain immutable elements (e.g., numbers, strings, tuples). |
+| **Unordered**          | Elements are stored in no particular order.                                |

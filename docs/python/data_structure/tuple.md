@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Tuple
 
 A tuple in Python is an immutable and ordered collection of items. It is similar to a list, but tuples cannot be modified after creation. Here's a detailed explanation with examples:
@@ -158,4 +162,3 @@ not_a_tuple = (5)  # This is an integer
 print(type(single))      # Output: <class 'tuple'>
 print(type(not_a_tuple)) # Output: <class 'int'>
 ```
-

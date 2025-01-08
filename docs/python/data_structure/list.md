@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # List
 
 Python lists are a versatile and commonly used data structure that can hold an ordered collection of items (of any data type)

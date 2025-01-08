@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Dictionary
 
 In Python, a dictionary (or dict) is an unordered collection of items. Each item is a key-value pair, where the key is unique and used to access the corresponding value. Dictionaries are mutable, meaning you can change their contents.
@@ -133,18 +137,18 @@ print(default_dict)  # Output: defaultdict(<class 'int'>, {'a': 1})
 
 # Dictionary Methods
 
-| Method               | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| `clear()`            | Removes all items from the dictionary.                                       |
-| `copy()`             | Returns a shallow copy of the dictionary.                                    |
-| `fromkeys()`         | Creates a dictionary from a sequence of keys with the same value.            |
-| `get()`              | Retrieves the value for a given key. If the key is not found, returns `None` or a default value. |
-| `items()`            | Returns a view object that displays a list of key-value pairs as tuples.     |
-| `keys()`             | Returns a view object that displays a list of all the keys in the dictionary.|
-| `pop()`              | Removes and returns the value for a specified key. Raises `KeyError` if the key doesn't exist. |
-| `popitem()`          | Removes and returns the last inserted key-value pair as a tuple.            |
-| `setdefault()`       | Returns the value of a key if it exists, or inserts the key with a default value and returns that value. |
-| `update()`           | Updates the dictionary with elements from another dictionary or iterable of key-value pairs. |
-| `values()`           | Returns a view object that displays a list of all the values in the dictionary. |
-| `del` (Keyword)      | Deletes a specific key-value pair from the dictionary.                       |
-| `|` (Union Operator) | Merges two dictionaries (Python 3.9+).                                       |
+| Method          | Description                                                                                              |
+| --------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| `clear()`       | Removes all items from the dictionary.                                                                   |
+| `copy()`        | Returns a shallow copy of the dictionary.                                                                |
+| `fromkeys()`    | Creates a dictionary from a sequence of keys with the same value.                                        |
+| `get()`         | Retrieves the value for a given key. If the key is not found, returns `None` or a default value.         |
+| `items()`       | Returns a view object that displays a list of key-value pairs as tuples.                                 |
+| `keys()`        | Returns a view object that displays a list of all the keys in the dictionary.                            |
+| `pop()`         | Removes and returns the value for a specified key. Raises `KeyError` if the key doesn't exist.           |
+| `popitem()`     | Removes and returns the last inserted key-value pair as a tuple.                                         |
+| `setdefault()`  | Returns the value of a key if it exists, or inserts the key with a default value and returns that value. |
+| `update()`      | Updates the dictionary with elements from another dictionary or iterable of key-value pairs.             |
+| `values()`      | Returns a view object that displays a list of all the values in the dictionary.                          |
+| `del` (Keyword) | Deletes a specific key-value pair from the dictionary.                                                   |
+| `               | ` (Union Operator)                                                                                       | Merges two dictionaries (Python 3.9+). |

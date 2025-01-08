@@ -115,3 +115,7 @@ Polymorphism enables methods or operations to behave differently based on the ob
 ## 23. What is abstraction in python?
 
 Abstraction focuses on exposing only essential features and hiding the internal implementation details of an object. This is achieved using abstract classes and methods, allowing users to interact with the object at a higher level without knowing its complexities.
+
+## 24. What are generators in Python?
+
+Generators in Python are a type of iterable, like lists or tuples, that generate values on the fly using the `yield` keyword. They allow for efficient memory usage since they produce items one at a time and do not store the entire sequence in memory. Generators are created using generator functions or generator expressions.
